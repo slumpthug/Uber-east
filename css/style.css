@@ -1,3 +1,7 @@
+body{
+    width: 1124px;
+    margin: 0 auto;
+}
 /* HEADER
 ========================== */
 .header {
@@ -48,4 +52,50 @@
 
 .basket-logo:hover {
     fill: #57AD56;
+}
+
+/* HEADER
+========================== */
+.main-section {
+    background: url(../img/first-block/photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 80px 654px 80px 81px;
+}
+
+.main-section__title-block {
+    padding: 38px;
+    background-color: #fff;
+}
+
+.main-section__title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #1D1D1D;
+    margin-bottom: 62px;
+}
+
+.main-section__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-section__address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #626262;
+}
+
+.main-section__btn {
+    padding: 8px 16px;
+    background-color: #262626;
+    border-radius: 16px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #fff;
 }
