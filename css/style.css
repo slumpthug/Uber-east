@@ -122,3 +122,72 @@ body{
 
 /* MAIN SECTION RANGE
 ========================== */
+.main-section-range {
+    padding: 56px 87px 80px 81px;
+}
+
+.main-section-range__title {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+    color: #1D1D1D;
+    margin-bottom: 32px;
+}
+
+.main-section-range__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 16px;
+    row-gap: 49px;
+}
+
+.card {
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid rgba(117, 117, 117, 0.2);
+    border-radius: 2px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card:hover {
+    background: #7575750b;
+}
+
+.card__left {
+    padding: 16px;
+}
+
+.card__title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1D1D1D;
+    margin-bottom: 4px;
+}
+
+.card__title_indented {
+    margin-bottom: 83px;
+}
+
+.card__description {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #626262;
+    margin-bottom: 58px;
+}
+
+.card__price {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    color: #1D1D1D;
+}
+
+.card__img {
+    width: 170px;
+    height: 100%;
+    border-radius: 2px;
+}
