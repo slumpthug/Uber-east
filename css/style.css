@@ -28,6 +28,7 @@ body{
     border: 1px solid #E0E0E0;
     border-radius: 2px;
     cursor: pointer;
+    background-color: #fff;
 }
 
 .header__button:hover {
@@ -42,12 +43,9 @@ body{
     border: 1px solid #262626;
 }
 
-.basket-logo-wrapper {
-    margin-left: 11px;
-}
-
 .basket-logo {
     cursor: pointer;
+    margin-left: 11px;
 }
 
 .basket-logo:hover {
