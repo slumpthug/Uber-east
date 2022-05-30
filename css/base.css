@@ -1,3 +1,46 @@
+:root {
+    /* font weight */
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    /* colors */
+    --box-shadow-header: 0px 0px 16px rgba(38, 38, 38, 0.16);
+    --color-text: #1D1D1D;
+    --color-opacity-text: #626262;
+    --color-fiter-link: #327430;
+    --color-hashtag-green: #49A144;
+    --hover-btn-bgc: #57AD56;
+    --hover-card-bgc: #7575750b;
+    --black-btn-bgc: #262626;
+    --btn-border-color: #E0E0E0;
+    --bgc-blocks-header-nav: #fff;
+    --color-text-on-shadow-background: #fff;
+    /* font size */
+    --font-size-user-part: 13px;
+    --font-size-h1: 36px;
+    --font-size-filter-link-card-title: 16px;
+    --font-size-text-address: 14px;
+    --font-size-range-title: 22px;
+    --font-size-card-price: 15px;
+    --font-size-hashtag: 16px;
+    --font-size-copyright: 11px;
+    /* line height */
+    --line-height-header-btn-card-title: 24px;
+    --line-height-h1: 42px;
+    --line-height-filter-link-footer-hashtag: 19px;
+    --line-height-text-address: 16px;
+    --line-height-title-block-btn: 15px;
+    --line-height-range-title: 34px;
+    --line-height-card-description-n-price: 21px;
+    --line-height-select-lang-n-footer-link: 15px;
+    --line-height-copyright: 13px;
+    /* border */
+    --border-radius-btns-cards-title-block: 2px;
+    --border-radius-title-block-btn: 16px;
+    --border-size-btn-n-card-n-block: 1px;
+    /* other */
+    --strip-opacity: .4; 
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
