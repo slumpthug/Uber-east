@@ -13,6 +13,11 @@ ul,ol {
     list-style: none;
 }
 
-button{
+button {
     border: none;
+}
+
+select {
+    border: none;
+    outline: none;
 }
