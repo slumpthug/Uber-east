@@ -262,8 +262,8 @@ body {
     color: var(--color-hashtag-green);
 }
 
-.facebook-logo {
-    width: 18px;
+.twitter-logo{
+    margin: 0 15px;
 }
 
 .footer__list {
