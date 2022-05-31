@@ -69,6 +69,7 @@ body {
     padding: 38px;
     background-color: var(--bgc-blocks-header-nav);
     border-radius: var(--border-radius-btns-cards-title-block);
+    box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
 }
 
 .main-section__title {
